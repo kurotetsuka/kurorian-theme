@@ -1,0 +1,103 @@
+.primary-toolbar .button.raised.linked,
+.primary-toolbar .button.raised.linked:active,
+.primary-toolbar .button.raised.linked:active:hover,
+.primary-toolbar .button.raised.linked:insensitive,
+.primary-toolbar .button.raised.linked:backdrop,
+.primary-toolbar .raised.linked .button,
+.primary-toolbar .raised.linked .button:active,
+.primary-toolbar .raised.linked .button:active:hover,
+.primary-toolbar .raised.linked .button:insensitive,
+.primary-toolbar .raised.linked .button:backdrop,
+.primary-toolbar .linked .button,
+.primary-toolbar .linked .button:active,
+.primary-toolbar .linked .button:active:hover,
+.primary-toolbar .linked .button:insensitive,
+.primary-toolbar .linked .button:backdrop,
+.primary-toolbar .linked .button:hover, {
+	border-image-width: 5px 0 5px 0;
+    border-radius: 3px;
+    border-width: 2px;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+.primary-toolbar .button.raised.linked:hover:hover,
+.primary-toolbar .raised.linked .button:hover:hover {
+    border-image-width: 5px 0 5px 0;
+    border-radius: 3px;
+    border-width: 2px;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+/* Leftmost button */
+.primary-toolbar .button.raised.linked:first-child,
+.primary-toolbar .button.raised.linked:active:first-child,
+.primary-toolbar .button.raised.linked:active:hover:first-child,
+.primary-toolbar .button.raised.linked:insensitive:first-child,
+.primary-toolbar .button.raised.linked:backdrop:first-child,
+.primary-toolbar .raised.linked .button:first-child,
+.primary-toolbar .raised.linked .button:active:first-child,
+.primary-toolbar .raised.linked .button:active:hover:first-child,
+.primary-toolbar .raised.linked .button:insensitive:first-child,
+.primary-toolbar .raised.linked .button:backdrop:first-child,
+.primary-toolbar .linked .button:first-child,
+.primary-toolbar .linked .button:hover:first-child,
+.primary-toolbar .linked .button:active:first-child,
+.primary-toolbar .linked .button:active:hover:first-child,
+.primary-toolbar .linked .button:insensitive:first-child,
+.primary-toolbar .linked .button:backdrop:first-child, {
+	border-width: 2px;
+	border-right-width: 0;
+    border-left-width: 1px;
+    border-image-width: 5px 0 5px 5px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.primary-toolbar .button.raised.linked:hover:hover:first-child,
+.primary-toolbar .raised.linked .button:hover:hover:first-child {
+    border-image-width: 5px 0 5px 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-width: 2px;
+    border-right-width: 0;
+}
+
+/* Rightmost button */
+.primary-toolbar .button.raised.linked:last-child,
+.primary-toolbar .button.raised.linked:active:last-child,
+.primary-toolbar .button.raised.linked:active:hover:last-child,
+.primary-toolbar .button.raised.linked:insensitive:last-child,
+.primary-toolbar .button.raised.linked:backdrop:last-child,
+.primary-toolbar .raised.linked .button:last-child,
+.primary-toolbar .raised.linked .button:active:last-child,
+.primary-toolbar .raised.linked .button:active:hover:last-child,
+.primary-toolbar .raised.linked .button:insensitive:last-child,
+.primary-toolbar .raised.linked .button:backdrop:last-child,
+.primary-toolbar .linked .button:last-child,
+.primary-toolbar .linked .button:hover:last-child,
+.primary-toolbar .linked .button:active:last-child,
+.primary-toolbar .linked .button:active:hover:last-child,
+.primary-toolbar .linked .button:insensitive:last-child,
+.primary-toolbar .linked .button:backdrop:last-child, {
+	border-width: 2px;
+	border-left-width: 0;
+    border-image-width: 5px 5px 5px 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+
+.primary-toolbar .button.raised.linked:hover:hover:last-child,
+.primary-toolbar .raised.linked .button:hover:hover:last-child {
+    border-image-width: 5px 5px 5px 0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-width: 2px;
+    border-left-width: 0;
+background-image: none;
+background-color: red;
+}
+
+
