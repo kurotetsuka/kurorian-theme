@@ -1,0 +1,3 @@
+## dorian-theme ##
+
+license: gpl
