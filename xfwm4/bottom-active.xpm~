@@ -1,8 +1,0 @@
-/* XPM */
-static char * bottom_active_xpm[] = {
-"4 2 3 1",
-" 	c None",
-".	c #060606",
-"!  c #020202",
-"!!!!",
-"...."};
