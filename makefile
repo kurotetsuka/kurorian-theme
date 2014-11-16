@@ -1,11 +1,12 @@
 #vars
+version = 3.12
 ff_files = FireFox/chrome
 main_files = \
 	gnome-shell gtk-2.0 gtk-3.0 \
 	index.theme metacity-1 openbox-3 unity \
 	xfce-notify-4.0 xfwm4
-install_dir = /usr/share/themes/dorian-theme
-install_dir_local = ~/.local/themes
+install_dir = /usr/share/themes/dorian-theme-$(version)
+install_dir_local = ~/.local/themes/dorian-theme-$(version)
 
 #checks
 check-root:
