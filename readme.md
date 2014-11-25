@@ -1,4 +1,4 @@
-## dorian-theme :: a dark elegant theme ##
+## kurorian-theme :: a dark techy theme ##
 
-license: [GNU GPLv3](GPLv3.pdf)
-original author: [killhellokitty](http://killhellokitty.deviantart.com/)
+license: [GNU GPLv3](legal/gnu-gpl-v3.0.md)
+author: [kurotetsuka](https://github.com/kurotetsuka/)

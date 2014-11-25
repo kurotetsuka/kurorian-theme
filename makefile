@@ -1,12 +1,11 @@
 #vars
 version = 3.12
-ff_files = FireFox/chrome
 main_files = \
 	gnome-shell gtk-2.0 gtk-3.0 \
-	index.theme metacity-1 openbox-3 unity \
-	xfce-notify-4.0 xfwm4
-install_dir = /usr/share/themes/dorian-theme-$(version)
-install_dir_local = ~/.local/themes/dorian-theme-$(version)
+	index.theme metacity-1 openbox
+install_dir = /usr/share/themes/kurorian-theme-$(version)
+user_theme_dir = ~/.themes
+install_dir_local = $(user_theme_dir)/kurorian-theme-$(version)
 
 #checks
 check-root:
@@ -14,11 +13,11 @@ check-root:
 
 check-install:
 	[ -d $(install_dir) ]
-	echo -en "Dorian Theme is installed\n"
+	echo -en "Kurorian Theme is installed\n"
 
 check-local-install:
 	[ -d $(install_dir) ]
-	echo -en "Dorian Theme is installed locally\n"
+	echo -en "Kurorian Theme is installed locally\n"
 
 #global installation
 install: check-root
